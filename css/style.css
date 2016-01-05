@@ -50,6 +50,34 @@ body {
 .logo{
 	float:left;
 }
+
+#login_div{
+	float: right; 
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+	margin: auto;
+	margin-right: 15px;
+	margin-left: 5px;
+}
+
+#login {
+	float: right;
+	display: block;
+	font-size: 1.1em;
+	background: #3CC395;
+	color: #ffffff;
+	padding: 8px 20px;
+	margin-right: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 30px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
 /*search*/
 .h_search{
 	float: right;
@@ -372,6 +400,7 @@ body {
 	vertical-align:middle;
 }
 .c1{
+	float: right;
 	background: url(../images/cart.png) no-repeat 0px 0px;
 	width: 46px;
 	height: 46px;
@@ -1624,6 +1653,7 @@ h2.resp-accordion {
 	.h_icon {
 		width: 18.777%;
 	}
+	
 	.h_menu {
 		display: none;
 	}
