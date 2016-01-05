@@ -20,7 +20,7 @@
 					<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
 					<!--end scroll_top_btn -->
 					<div class="copy">
-						<p class="link">&copy; 2014 Aditii. All rights reserved | Template by&nbsp;&nbsp;<a href="http://w3layouts.com/"> W3Layouts</a></p>
+						<p class="link">&copy; 2014 Aditii. All rights reserved | Template by&nbsp;&nbsp;<a href="http://w3layouts.com/">W3Layouts</a></p>
 					</div>
 					<div class="clear"></div>
 				</div>
