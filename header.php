@@ -1,10 +1,10 @@
 <?php
 
 	if(empty($_SESSION['user'])) { 
-        $login_info = "<a href='#' id='login'>Login</a>";
+        $login_info = "<a href='login.php' id='login'>Login</a> <a href='#' id='register'>Register</a>";
     }
 	else{
-		$login_info = "<a href='#' id='login'>Hello " . explode (' ',$_SESSION['user']['name'])[0] . "!</a>";
+		$login_info = "<a href='logout.php' id='login'>Logout</a>";
 	}
 
 ?>
@@ -66,7 +66,7 @@
 			<div class="wrap">
 				<div class="header">
 					<div class="logo">
-						<a href="index.html"><img src="images/logo.png" alt=""/> </a>
+						<a href="index.php"><img src="images/logo.png" alt=""/> </a>
 					</div>
 					
 					<div class="h_icon">
@@ -103,13 +103,13 @@
 				<div class="header_sub">
 					<div class="h_menu">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li> |
+							<li class="active"><a href="index.php">Home</a></li> |
 							<li><a href="sale.html">sale</a></li> |
 							<li><a href="handbags.html">handbags</a></li> |
 							<li><a href="accessories.html">accessories</a></li> |
 							<li><a href="wallets.html">wallets</a></li> |
 							<li><a href="sale.html">sale</a></li> |
-							<li><a href="index.html">mens store</a></li> |
+							<li><a href="index.php">mens store</a></li> |
 							<li><a href="shoes.html">shoes</a></li> |
 							<li><a href="sale.html">vintage</a></li> |
 							<li><a href="service.html">services</a></li> |
@@ -120,7 +120,7 @@
 						  <nav class="nav">	        	
 							<a href="#" id="w3-menu-trigger"> </a>
 								  <ul class="nav-list" style="">
-										<li class="nav-item"><a class="active" href="index.html">Home</a></li>
+										<li class="nav-item"><a class="active" href="index.php">Home</a></li>
 										<li class="nav-item"><a href="sale.html">Sale</a></li>
 										<li class="nav-item"><a href="handbags.html">Handbags</a></li>
 										<li class="nav-item"><a href="accessories.html">Accessories</a></li>

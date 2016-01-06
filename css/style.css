@@ -63,19 +63,49 @@ body {
 
 #login {
 	float: right;
-	display: block;
+	display: inline-block;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 1.1em;
-	background: #3CC395;
+	background: #32AC9D; /*#3CC395*/
 	color: #ffffff;
 	padding: 8px 20px;
 	margin-right: 0px;
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-left: 30px;
+	margin-left: 10px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+}
+
+#login:hover{
+	background: #555555;
+	color: #ffffff;
+}
+
+#register {
+	
+	float: right;
+	display: inline-block;
+	font-size: 1.1em;
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #32AC9D;
+	color: #ffffff;
+	padding: 8px 20px;
+	margin-right: 0px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#register:hover{
+	background: #555555;
+	color: #ffffff;
 }
 
 /*search*/
@@ -84,7 +114,7 @@ body {
 	position: relative;
 	border: 1px solid rgb(216, 216, 216);
 	width: 40.3333%;
-	margin: 0.5% 15% 0;
+	margin: 0.5% 5% 0;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
 	-moz-border-radius: 2px;
@@ -118,6 +148,7 @@ body {
 .h_search input[type="submit"]:hover {
 	background: url('../images/search_h.png') no-repeat 10px 5px;
 }
+
 /*------start-top-nav------*/
 .top-nav {
 	display:none;
@@ -745,6 +776,101 @@ p.para{
 	color: #555555;
 	line-height: 1.8em;
 }
+
+/* Login Form */
+
+.login-text-div{
+	border-bottom: 1px solid #777777;
+	padding-right: -5px;
+	margin-right: 20px;
+
+}
+
+.login-div{
+	margin:2% 0;
+	display: block;
+}
+.login-div h2{
+	font-size: 2em;
+	color: #777777;
+	text-shadow: 0 1px 0 #ffffff;
+}
+
+.login-form{
+	position:relative;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.login-form div{
+	padding:5px 0;
+}
+
+.login-form .col{
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.login-form span label{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #777777;
+	display: block;
+	font-size: 0.8725em;
+	padding-bottom: 5px;
+	text-transform: capitalize;
+}
+.login-form input[type="text"], .login-form textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	color: rgba(85, 81, 81, 0.84);
+	padding: 8px;
+	display: block;
+	width: 30%;
+	outline: none;
+	-webkit-appearance: none;
+	/*text-transform: capitalize;*/
+}
+
+.login-form input[type="password"], .login-form textarea {
+	font-family: 'Source Sans Pro', sans-serif;
+	background: #FFFFFF;
+	border: 1px solid #E7E7E7;
+	color: rgba(85, 81, 81, 0.84);
+	padding: 8px;
+	display: block;
+	width: 30%;
+	outline: none;
+	-webkit-appearance: none;
+	/*text-transform: capitalize;*/
+}
+
+.login-form textarea{
+	resize:none;
+	height:120px;		
+}
+.login-form input[type="submit"]{
+	margin-top:10px;
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-appearance: none;
+	cursor:pointer;
+	color: #ffffff;
+	background: #3CC395;
+	border:none;
+	outline:none;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 12px 38px;
+	font-size: 0.875em;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.login-form input[type="submit"]:hover{
+	background: #555555;
+	color: #ffffff;
+}
+
 /* start contact */
 .contact{
 	margin:2% 0;
@@ -754,13 +880,14 @@ p.para{
 	font-size: 2em;
 	color: #777777;
 	text-shadow: 0 1px 0 #ffffff;
-}
+}	
 .map{
 	margin: 2% 2% 2% 0;
 }
 .col{
 	display: block;
 }
+/*
 .contact-form{
 	position:relative;
 }
@@ -813,6 +940,7 @@ p.para{
 	background: #555555;
 	color: #ffffff;
 }
+*/
 /*-- start details--*/
 .single{
 	padding:2% 0;
